@@ -1,0 +1,68 @@
+.btnsAndImages{
+  display: flex;  
+}
+
+.btnCollective{
+  flex-basis: 100px; 
+  background-color: rgb(138, 138, 138);
+  height: 1040px;
+}
+
+.btn{
+  display: block;
+  width:300px;
+  background-color: rgb(200, 200, 200);
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 0px;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.btn:hover {
+  background-color: rgb(83, 83, 83);
+  color: rgb(255, 255, 255);
+}
+
+.btn:focus {
+  border-left: 5px solid chocolate;  
+  background-color: rgb(83, 83, 83);
+  color: rgb(255, 255, 255);
+}
+
+.heading{
+    justify-content: left;
+    display:flex;
+    color: rgb(88, 88, 88);
+    background-color: rgb(200, 200, 200);
+    font-family: Arial;
+    padding: 10px 90px;
+    margin: 0px 0px;
+    width: 1920px;
+    height: 40px;
+}
+
+.images{
+  display:block;
+  
+
+  width: 1790px;
+  height: 1030px;
+  white-space: nowrap;
+  
+ 
+  overflow-x: scroll;
+  overflow-y: hidden; 
+  margin: 10px;
+
+}
+
+.img{
+  width:500px;
+  height:500px;
+  object-fit:cover;
+  margin-right: 10px;
+  
+}
