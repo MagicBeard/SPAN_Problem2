@@ -46,17 +46,12 @@
 
 .images{
   display:block;
-  
-
   width: 1790px;
   height: 1030px;
-  white-space: nowrap;
-  
- 
+  white-space: nowrap; 
   overflow-x: scroll;
   overflow-y: hidden; 
   margin: 10px;
-
 }
 
 .img{
@@ -64,5 +59,4 @@
   height:500px;
   object-fit:cover;
   margin-right: 10px;
-  
 }
